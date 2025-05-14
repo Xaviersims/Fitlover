@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitlover Gym | Explore</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <img src="fitlover.png" alt="Fitlover Logo" class="logo">
+        <h1>Fitlover Gym</h1>
+        <p class="slogan">Do it</p>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="membership.html">Membership</a>
+            <a href="creative.html">Explore</a>
+        </nav>
+    </header>
+    <main>
+        <section class="photo-gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-grid">
+                <img src="Gym 1.png" alt="Photo 1">
+                <img src="Gym 2.png" alt="Photo 2">
+                <img src="Gym 3.png" alt="Photo 3">
+            </div>
+        </section>
+        <section class="bmi-calc">
+            <h2>BMI Calculator</h2>
+            <form id="bmiForm">
+                <label>Height (cm): <input type="number" id="height" required></label>
+                <label>Weight (kg): <input type="number" id="weight" required></label>
+                <button type="submit">Calculate BMI</button>
+            </form>
+            <p id="bmiResult"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Fitlover Gym</p>
+    </footer>
+</body>
+</html>
